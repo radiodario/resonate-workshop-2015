@@ -20,5 +20,9 @@ Partial functions allow currying, that is, hard-coding one argument of the funct
 		)
 	(partial foo "something")
 ```
+
+
 ## Reading list
 [Understanding Entity-component Systems](http://gamedev.net/page/resources/_/technical/game-programming/understanding-component-entity-systems-r3013)
+[Clojure component - Stuart Sierra](http://github.com/stuartsierra/component)
+[Juxt - Modular](http://github.com/juxt/modular)
