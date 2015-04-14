@@ -96,7 +96,26 @@ Closures work like in javascript
 ```
 
 
+## Destructuring
+you can access things inside objects by using accessors,
+```
+	(defn foo [m] (+ (:x m) (:y m))
+```
 
+but you can be more efficient by using `:keys`, by destructuring
+```
+	(defn foo [{:keys [x y]}] (+ x y))
+```
+
+another keyword is `:strs` which works by passing strs and binds the
+results to local variables
+```
+	(defn foo [{:strs [x y]}] (+ x y))
+	(foo {"x" 1 "y" 2})
+```
+
+this can be used further to perform list comprehensions, by using the `&` operator
+which lets you do "tail"
 
 ## Reading
 * Chris Okazaki - Purely Functional Data Structures (1996)
