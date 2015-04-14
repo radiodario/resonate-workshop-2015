@@ -113,7 +113,6 @@ results to local variables
 	(defn foo [{:strs [x y]}] (+ x y))
 	(foo {"x" 1 "y" 2})
 ```
-
 this can be used further to perform list comprehensions, by using the `&` operator
 which lets you do "tail"
 
