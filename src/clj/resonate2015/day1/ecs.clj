@@ -42,7 +42,7 @@
 (defn new-entity!
   "Defines a new entity ID and increases the entity counter"
   [app-state]
-  (-> ;; it's like --> but inverted (useful for updates)
+  (-> ;; it's like `-->` but inverted (useful for updates)
     app-state
     (swap! update-in [:uuid-counter] inc)
     (:uuid-counter)

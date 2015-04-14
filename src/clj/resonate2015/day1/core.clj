@@ -21,3 +21,18 @@
 
 (require '[thi.ng.geom.core :as g])
 (require '[thi.ng.geom.aabb :as a])
+(require '[thi.ng.geom.circle :as c])
+(require '[thi.ng.geom.basicmesh :as bm])
+(require '[thi.ng.geom.gmesh :as gm])
+(require '[thi.ng.geom.mesh.io :as mio])
+(require '[thi.ng.geom.mesh.subdivision :as sd])
+(require '[clojure.java.io :as io])
+
+(with-open [o (io/output-stream "foo.stl")]
+	(let [mesh (-> (c/circle 1) (g/extrude {:depth 1 :res 6}))]
+	(->> mesh
+		(iterate sd/catmull-clark)
+		(take 1)
+		(last)
+		(g/tessellate)
+		(mio/write-stl o))))
