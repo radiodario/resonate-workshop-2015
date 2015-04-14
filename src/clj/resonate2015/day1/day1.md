@@ -6,6 +6,7 @@
 * `eval` isn't as taxing as in javascript because what is passed is already a data structure
 * All data is immutable. Change in a system must be represented via immutable data structures`.
 * Any function used as a *question* (returns true or false) is usually written with a question mark at the end (i.e. `coll?`)
+* Package management is done via Clojars
 
 ## Vectors
 Vectors use square brackets. They are always data (no need to first thing to be function). used for variables in sequential collection. closest to an array: `(def a [1 2 3 4])`
@@ -81,6 +82,20 @@ The `->>` keyword allows to create "flows" which are more readable. The intepret
          (take 10)
     )
 ```
+
+## Closures
+Closures work like in javascript
+```
+    (def make-greeter [greeting] (fn [name] (print greeting name)))
+    (def greetings-en (make-greeter "hello"))
+    (def greetings-de (make-greeter "hallo"))
+    (greetings-en "paul")
+    ; hello paul
+    (greetings-de "paul")
+    ; hallo paul
+```
+
+
 
 
 ## Reading
