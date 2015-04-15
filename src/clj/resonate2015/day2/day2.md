@@ -8,7 +8,7 @@
 	;; lets are processed sequentially
 	(let [a 42 ;; but now it's `42` here
 	      b (+ a 10) ;; so b is set to 52
-	      a :foo] ;; and now we set a to `:foo` 
+	      a :foo] ;; and now we set a to `:foo`
 	  b) ;; 52
 ```
 
@@ -21,8 +21,11 @@ Partial functions allow currying, that is, hard-coding one argument of the funct
 	(partial foo "something")
 ```
 
+## Macros
+Macros are run at compile time.
 
 ## Reading list
 [Understanding Entity-component Systems](http://gamedev.net/page/resources/_/technical/game-programming/understanding-component-entity-systems-r3013)
 [Clojure component - Stuart Sierra](http://github.com/stuartsierra/component)
 [Juxt - Modular](http://github.com/juxt/modular)
+[Reframe - React best practises for clojurescript]

@@ -95,27 +95,42 @@ Closures work like in javascript
     ; hallo paul
 ```
 
+## Reduce
+Takes a collection and reduces to a single value
+```
+    (reduce (fn [acc x] (+ acc x)) (range 10))
+```
+the `reductions` function allows you to trace through the iterations
 
-## Destructuring
-you can access things inside objects by using accessors,
+## Scope and let
 ```
-	(defn foo [m] (+ (:x m) (:y m))
+    (def a 23)
+    ;; a is 23
+    ;; lets are processed sequentially
+    (let [a 42 ;; but now it's `42` here
+          b (+ a 10) ;; so b is set to 52
+          a :foo] ;; and now we set a to `:foo`
+      b) ;; 52
 ```
 
-but you can be more efficient by using `:keys`, by destructuring
+## Partials
+Partial functions allow currying, that is, hard-coding one argument of the function
 ```
-	(defn foo [{:keys [x y]}] (+ x y))
+    (defn foo
+        [a b c d]
+        )
+    (partial foo "something")
 ```
 
-another keyword is `:strs` which works by passing strs and binds the
-results to local variables
-```
-	(defn foo [{:strs [x y]}] (+ x y))
-	(foo {"x" 1 "y" 2})
-```
-this can be used further to perform list comprehensions, by using the `&` operator
-which lets you do "tail"
+## Macros and requiring
+Macros are run at compile time. You can "derefrence" a library at require time by saying `(:require [my.library :as [thing other-thing]])`
+
 
 ## Reading
 * Chris Okazaki - Purely Functional Data Structures (1996)
 * [Persistent vectors in clojure](hypirion.com/musings/understanding-persistent-vector-pt-1)
+* [Understanding Entity-component Systems](http://gamedev.net/page/resources/_/technical/game-programming/understanding-component-entity-systems-r3013)
+* [Clojure component - Stuart Sierra](http://github.com/stuartsierra/component)
+* [Juxt - Modular](http://github.com/juxt/modular)
+* [Reframe - React best practises for clojurescript]
+* [Reagent project](http://reagent-project.github.io)

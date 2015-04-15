@@ -1,0 +1,821 @@
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.io.FileNotFoundException: src/cljs (No such file or directory)
+ at java.io.FileInputStream.open (FileInputStream.java:-2)
+    java.io.FileInputStream.<init> (FileInputStream.java:146)
+    clojure.java.io/fn (io.clj:229)
+    clojure.java.io$fn__6786$G__6777__6793.invoke (io.clj:69)
+    clojure.java.io/fn (io.clj:165)
+    clojure.java.io$fn__6799$G__6781__6806.invoke (io.clj:69)
+    clojure.java.io$reader.doInvoke (io.clj:102)
+    clojure.lang.RestFn.invoke (RestFn.java:410)
+    cljs.closure$compile_file.invoke (closure.clj:360)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:410)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/cljs/resonate2015/day1/core.cljs
+ at cljs.analyzer$parse_ns$fn__2076.invoke (analyzer.clj:2074)
+    cljs.analyzer$parse_ns.invoke (analyzer.clj:2035)
+    cljs.analyzer$parse_ns.invoke (analyzer.clj:2026)
+    cljs.compiler$compile_root.invoke (compiler.clj:1153)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/resonate2015/day1/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.compiler$compile_file$fn__2978.invoke (compiler.clj:1124)
+    cljs.compiler$compile_file.invoke (compiler.clj:1092)
+    cljs.compiler$compile_root.invoke (compiler.clj:1154)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/resonate2015/day1/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.compiler$compile_file$fn__2978.invoke (compiler.clj:1124)
+    cljs.compiler$compile_file.invoke (compiler.clj:1092)
+    cljs.compiler$compile_root.invoke (compiler.clj:1154)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: new-entity! in this context, compiling:(resonate2015/day1/ecs.clj:56:7)
+ at clojure.lang.Compiler.analyze (Compiler.java:6518)
+    clojure.lang.Compiler.analyze (Compiler.java:6460)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3712)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6710)
+    clojure.lang.Compiler.analyze (Compiler.java:6499)
+    clojure.lang.Compiler.analyze (Compiler.java:6460)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3766)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6710)
+    clojure.lang.Compiler.analyze (Compiler.java:6499)
+    clojure.lang.Compiler.analyze (Compiler.java:6460)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5836)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5271)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3900)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6706)
+    clojure.lang.Compiler.analyze (Compiler.java:6499)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6696)
+    clojure.lang.Compiler.analyze (Compiler.java:6499)
+    clojure.lang.Compiler.access$200 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:560)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6708)
+    clojure.lang.Compiler.analyze (Compiler.java:6499)
+    clojure.lang.Compiler.analyze (Compiler.java:6460)
+    clojure.lang.Compiler.eval (Compiler.java:6771)
+    clojure.lang.Compiler.load (Compiler.java:7194)
+    clojure.lang.RT.loadResourceScript (RT.java:370)
+    clojure.lang.RT.loadResourceScript (RT.java:361)
+    clojure.lang.RT.load (RT.java:440)
+    clojure.lang.RT.load (RT.java:411)
+    clojure.core$load$fn__5436.invoke (core.clj:5863)
+    clojure.core$load.doInvoke (core.clj:5862)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/resonate2015/day1/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.compiler$compile_file$fn__2978.invoke (compiler.clj:1124)
+    cljs.compiler$compile_file.invoke (compiler.clj:1092)
+    cljs.compiler$compile_root.invoke (compiler.clj:1154)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.ecs/new-entity! at line 56 src/cljs/resonate2015/day1/ecs.cljs
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.067 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.074 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: Unmatched delimiter )
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    clojure.tools.reader.reader_types$reader_error.doInvoke (reader_types.clj:336)
+    clojure.lang.RestFn.invoke (RestFn.java:439)
+    clojure.tools.reader$read_unmatched_delimiter.invoke (reader.clj:66)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:166)
+    clojure.tools.reader$read_vector.invoke (reader.clj:194)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:166)
+    clojure.tools.reader$read_list.invoke (reader.clj:177)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:166)
+    clojure.tools.reader$read_list.invoke (reader.clj:177)
+    clojure.tools.reader$read.invoke (reader.clj:743)
+    clojure.tools.reader$read.invoke (reader.clj:729)
+    cljs.analyzer$forms_seq_STAR_$forms_seq___2061$fn__2062$fn__2063.invoke (analyzer.clj:1981)
+    cljs.analyzer$forms_seq_STAR_$forms_seq___2061$fn__2062.invoke (analyzer.clj:1975)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    cljs.analyzer$parse_ns$fn__2076.invoke (analyzer.clj:2051)
+    cljs.analyzer$parse_ns.invoke (analyzer.clj:2035)
+    cljs.analyzer$parse_ns.invoke (analyzer.clj:2026)
+    cljs.compiler$compile_root.invoke (compiler.clj:1153)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.082 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.074 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.075 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.111 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.096 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.092 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.091 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/resonate2015/day1/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.compiler$compile_file$fn__2978.invoke (compiler.clj:1124)
+    cljs.compiler$compile_file.invoke (compiler.clj:1092)
+    cljs.compiler$compile_root.invoke (compiler.clj:1154)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.089 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.089 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.088 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.093 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.075 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.072 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.08 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/resonate2015/day1/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.compiler$compile_file$fn__2978.invoke (compiler.clj:1124)
+    cljs.compiler$compile_file.invoke (compiler.clj:1092)
+    cljs.compiler$compile_root.invoke (compiler.clj:1154)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/resonate2015/day1/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.compiler$compile_file$fn__2978.invoke (compiler.clj:1124)
+    cljs.compiler$compile_file.invoke (compiler.clj:1092)
+    cljs.compiler$compile_root.invoke (compiler.clj:1154)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/resonate2015/day1/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.compiler$compile_file$fn__2978.invoke (compiler.clj:1124)
+    cljs.compiler$compile_file.invoke (compiler.clj:1092)
+    cljs.compiler$compile_root.invoke (compiler.clj:1154)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 2.813 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.081 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.core/width at line 39 src/cljs/resonate2015/day1/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.108 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.core/width at line 39 src/cljs/resonate2015/day1/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.112 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.099 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.084 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.08 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.083 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.083 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.085 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.084 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.core/new-system! at line 56 src/cljs/resonate2015/day1/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.103 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/resonate2015/day1/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.compiler$compile_file$fn__2978.invoke (compiler.clj:1124)
+    cljs.compiler$compile_file.invoke (compiler.clj:1092)
+    cljs.compiler$compile_root.invoke (compiler.clj:1154)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/resonate2015/day1/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.compiler$compile_file$fn__2978.invoke (compiler.clj:1124)
+    cljs.compiler$compile_file.invoke (compiler.clj:1092)
+    cljs.compiler$compile_root.invoke (compiler.clj:1154)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/resonate2015/day1/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.compiler$compile_file$fn__2978.invoke (compiler.clj:1124)
+    cljs.compiler$compile_file.invoke (compiler.clj:1092)
+    cljs.compiler$compile_root.invoke (compiler.clj:1154)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/resonate2015/day1/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.compiler$compile_file$fn__2978.invoke (compiler.clj:1124)
+    cljs.compiler$compile_file.invoke (compiler.clj:1092)
+    cljs.compiler$compile_root.invoke (compiler.clj:1154)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.core/new-system! at line 64 src/cljs/resonate2015/day1/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.155 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.core/w at line 46 src/cljs/resonate2015/day1/core.cljs
+WARNING: Use of undeclared Var resonate2015.day1.core/h at line 46 src/cljs/resonate2015/day1/core.cljs
+WARNING: Use of undeclared Var resonate2015.day1.core/new-system! at line 69 src/cljs/resonate2015/day1/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.152 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.core/w at line 46 src/cljs/resonate2015/day1/core.cljs
+WARNING: Use of undeclared Var resonate2015.day1.core/h at line 46 src/cljs/resonate2015/day1/core.cljs
+WARNING: Wrong number of args (3) passed to resonate2015.day1.ecs/new-system! at line 69 src/cljs/resonate2015/day1/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.15 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.core/w at line 46 src/cljs/resonate2015/day1/core.cljs
+WARNING: Use of undeclared Var resonate2015.day1.core/h at line 46 src/cljs/resonate2015/day1/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.127 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.097 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.101 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.092 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/resonate2015/day1/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.compiler$compile_file$fn__2978.invoke (compiler.clj:1124)
+    cljs.compiler$compile_file.invoke (compiler.clj:1092)
+    cljs.compiler$compile_root.invoke (compiler.clj:1154)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.087 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.091 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.09 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.121 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.09 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.087 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.088 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.084 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: Only :as alias and :refer (names) options supported in :require; offending spec: [re-frame.core :refer] at line 1 
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.analyzer$error.invoke (analyzer.clj:379)
+    cljs.analyzer$error.invoke (analyzer.clj:376)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.clj:1285)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.clj:1325)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:632)
+    clojure.core$partial$fn__4514.doInvoke (core.clj:2508)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4529.invoke (core.clj:2614)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:646)
+    clojure.core/next (core.clj:64)
+    clojure.core$reduce1.invoke (core.clj:905)
+    clojure.core$reduce1.invoke (core.clj:896)
+    clojure.core$merge_with.doInvoke (core.clj:2931)
+    clojure.lang.RestFn.applyTo (RestFn.java:139)
+    clojure.core$apply.invoke (core.clj:630)
+    cljs.analyzer$eval1813$fn__1815$fn__1819.invoke (analyzer.clj:1499)
+    clojure.core.protocols/fn (protocols.clj:148)
+    clojure.core.protocols$fn__6427$G__6422__6436.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:59)
+    clojure.core.protocols$fn__6401$G__6396__6414.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6514)
+    cljs.analyzer$eval1813$fn__1815.invoke (analyzer.clj:1500)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: run! already refers to: #'clojure.core/run! in namespace: reagent.ratom, being replaced by: #'reagent.ratom/run!
+[32mSuccessfully compiled "resources/public/js/app.js" in 1.392 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.148 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.166 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.141 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.138 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.124 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.133 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.127 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.core/main-panel at line 83 src/cljs/resonate2015/day1/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.196 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.129 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.129 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[31mCompiling "resources/public/js/app.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/cljs/resonate2015/day1/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4577)
+    cljs.compiler$compile_file$fn__2978.invoke (compiler.clj:1124)
+    cljs.compiler$compile_file.invoke (compiler.clj:1092)
+    cljs.compiler$compile_root.invoke (compiler.clj:1154)
+    cljs.closure$compile_dir.invoke (closure.clj:369)
+    cljs.closure$eval3347$fn__3348.invoke (closure.clj:409)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    cljs.closure$eval3334$fn__3335.invoke (closure.clj:423)
+    cljs.closure$eval3283$fn__3284$G__3274__3291.invoke (closure.clj:316)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:18)
+    clojure.core$map$fn__4529.invoke (core.clj:2612)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:485)
+    clojure.core/seq (core.clj:135)
+    clojure.core$apply.invoke (core.clj:626)
+    clojure.core$mapcat.doInvoke (core.clj:2650)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:18)
+    cljs.closure$build.invoke (closure.clj:1415)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:150)
+    figwheel_sidecar.auto_builder$default_build_options$fn__16296.invoke (auto_builder.clj:66)
+    figwheel_sidecar.auto_builder$warning$fn__16293.invoke (auto_builder.clj:61)
+    clojurescript_build.auto$time_build$fn__16106.invoke (auto.clj:55)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$after$fn__16112.invoke (auto.clj:64)
+    clojurescript_build.auto$error$fn__16115.invoke (auto.clj:71)
+    clojurescript_build.auto$before$fn__16109.invoke (auto.clj:60)
+    clojurescript_build.auto$make_conditional_builder$fn__16127.invoke (auto.clj:103)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.126 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.ecs/state at line 44 src/cljs/resonate2015/day1/ecs.cljs
+WARNING: Use of undeclared Var resonate2015.day1.ecs/new-entity! at line 62 src/cljs/resonate2015/day1/ecs.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.255 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/ecs.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.ecs/new-entity! at line 62 src/cljs/resonate2015/day1/ecs.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.186 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/ecs.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.125 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.ecs/add-components-for-eid! at line 62 src/cljs/resonate2015/day1/ecs.cljs
+WARNING: Use of undeclared Var resonate2015.day1.ecs/new-entity! at line 65 src/cljs/resonate2015/day1/ecs.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.216 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/ecs.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.ecs/add-components-for-eid! at line 62 src/cljs/resonate2015/day1/ecs.cljs
+WARNING: Use of undeclared Var resonate2015.day1.ecs/new-entity! at line 65 src/cljs/resonate2015/day1/ecs.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.151 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/ecs.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.ecs/new-entity! at line 65 src/cljs/resonate2015/day1/ecs.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.167 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/ecs.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+WARNING: Use of undeclared Var resonate2015.day1.core/make-particles at line 98 src/cljs/resonate2015/day1/core.cljs
+WARNING: Use of undeclared Var resonate2015.day1.core/app at line 98 src/cljs/resonate2015/day1/core.cljs
+WARNING: Use of undeclared Var resonate2015.day1.core/app at line 100 src/cljs/resonate2015/day1/core.cljs
+WARNING: Use of undeclared Var resonate2015.day1.core/app at line 101 src/cljs/resonate2015/day1/core.cljs
+WARNING: Use of undeclared Var resonate2015.day1.core/app at line 114 src/cljs/resonate2015/day1/core.cljs
+WARNING: Use of undeclared Var resonate2015.day1.core/app at line 115 src/cljs/resonate2015/day1/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.206 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "dev_src"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.114 seconds.[0m
+notifying browser that file changed:  /resonate2015/day1/core.js

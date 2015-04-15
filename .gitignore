@@ -5,3 +5,6 @@ target
 .classpath
 .project
 .settings
+resources/public/js/out
+target/
+.lein-repl-history
